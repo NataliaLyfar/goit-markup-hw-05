@@ -108,6 +108,15 @@ img {
 .nav-link.current {
   color: var(--accent-color);
 }
+.current::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-image: url(../images/hover.png);
+
+  background-position: bottom;
+}
 .header-contact-list {
   display: flex;
   margin-left: auto;
