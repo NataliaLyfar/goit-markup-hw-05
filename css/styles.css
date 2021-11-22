@@ -370,8 +370,10 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  padding: 12px;
-
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: var(--primary-color);
   color: var(--icon-color);
@@ -463,8 +465,10 @@ img {
 }
 
 .join-us {
+  width: 206px;
+  height: 80px;
   margin-left: 70px;
-  padding-top: 12px;
+  margin-top: 12px;
 }
 .join-us-text {
   margin-bottom: 20px;
@@ -479,21 +483,23 @@ img {
 }
 .join-us-list {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .join-us-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  padding: 12px;
-
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: var(--shadow2-color);
   color: var(--primary-color);
 }
-.join-us-item:not(:last-child) {
-  margin-right: 10px;
-}
+
 .join-us-link:hover,
 .join-us-link:focus {
   background-color: var(--accent-color);
