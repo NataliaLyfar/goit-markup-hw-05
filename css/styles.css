@@ -434,6 +434,7 @@ img {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .map-link {
   display: inline-block;
@@ -468,7 +469,6 @@ img {
   width: 206px;
   height: 80px;
   margin-left: 70px;
-  margin-top: 12px;
 }
 .join-us-text {
   margin-bottom: 20px;
