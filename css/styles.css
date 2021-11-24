@@ -5,7 +5,7 @@
   --secondary-color: #2f303a;
   --tertiary-color: #c4c4c4;
   --tertiary-shade-color: rgba(47, 48, 58, 0.4);
-  --tertiaryshade2-color: rgba(47, 48, 58, 0.8);
+  --tertiary-shade2-color: rgba(47, 48, 58, 0.8);
   --primary-text-color: #757575;
   --shadow-text-color: rgba(255, 255, 255, 0.6);
   --shadow2-color: rgba(255, 255, 255, 0.1);
@@ -310,7 +310,7 @@ img {
   height: 70px;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiaryshade2-color);
+  background-color: var(--tertiary-shade2-color);
 }
 .description-title {
   font-weight: 700;
